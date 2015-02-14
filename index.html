@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <meta name="description" content="A simple game of snake- Complete Game - js cleaned" />
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <title>Snake Game</title>
+    <div class="containsCanvas" id="div_containsCanvas">
+      <canvas id="can">
+        If you can see this, javascript canvas elements aren't supported by your browser
+      </canvas>
+      <p>
+        Snake Game
+      </p>
+      <p class="p-subtext">
+        by Eric Vincent
+      </p>
+      <div class="p-subtext">
+        <p  class="p-leftAlign">
+          [arrow keys to move, space to pause]
+        </p>
+        <p  class="p-rightAlign">
+          score: 
+          <span id="scoreSpan" class="p-highlighted">
+            <script>
+              var score = 0;
+              document.write(score);
+            </script>
+          </span>
+        </p>
+        <p class="p-highlighted" style="clear: both;" id="pausedOrNot">
+          <!-- filled by js with "~paused~" when it's paused, etc. -->
+        </p>
+      </div>
+    </div>
+    <script type=text/javascript src="script.js">
+    </script>
+</head>
+<body>
+  <!-- I realise now this is a bad way to do it, but I will leave it, as it is an old project -->
+</body>
+</html>
