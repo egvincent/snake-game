@@ -17,6 +17,6 @@ div.snake, .canvas-container.snake {
   width: 100%;
 }
 
-.highlighted .snake{
+.highlighted.snake{
   color: #FF6347;
 }
