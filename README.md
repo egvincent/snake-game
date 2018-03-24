@@ -11,4 +11,4 @@ You can use this in your own projects, just insert the code from this repo (fair
 Adjust the constants at the top of snake.js to tweak the game to your liking (includes dimensions and colors).
 
 ### Live demo
-This game is live on my site at http://egvincent.com/snake, have a look!
+This game is live on my site at https://egvincent.github.io/snake/, have a look!
